@@ -1,5 +1,10 @@
 Israel Supermarket Scraper: Clients to download the data published by the supermarkets.
 =======================================
+```
+Open Source fork of 'https://github.com/OpenIsraeliSupermarkets/israeli-supermarket-scarpers' from commit ce00b88ea618e8d3c13e8bbc7c52af75092d7100
+```
+
+
 This is a scraper for ALL the supermarket chains listed in the GOV.IL site.
 
 שקיפות מחירים (השוואת מחירים) - https://www.gov.il/he/departments/legalInfo/cpfta_prices_regulations
