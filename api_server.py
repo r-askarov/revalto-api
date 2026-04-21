@@ -13,6 +13,14 @@ CHAINS = ["BAREKET", "TIV_TAAM", "YELLOW"]
 # In-memory cache
 CACHE = {}
 
+import os
+
+@app.get("/debug")
+def debug():
+    return {
+        "cwd": os.getcwd(),
+        "files": os.listdir("dumps") if os.path.exists("dumps") else "NO DUMPS"
+    }
 
 # ---------------------------
 # FIND ITEMS (ROBUST)
