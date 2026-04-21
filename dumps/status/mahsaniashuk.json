@@ -1,0 +1,41 @@
+{
+    "20260204201411": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:11.684821+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:32.632268+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/MahsaniAShuk",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201526": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:15:26.708468+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        }
+    ]
+}

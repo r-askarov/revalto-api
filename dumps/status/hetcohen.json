@@ -1,0 +1,55 @@
+{
+    "20260204201405": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:05.311621+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        }
+    ],
+    "20260204201446": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:46.953748+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:48.317832+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/HetCohen",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201523": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:15:23.798011+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        }
+    ]
+}

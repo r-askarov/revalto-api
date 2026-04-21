@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <ChainId>7290873255550</ChainId>
+  <SubChainId>000</SubChainId>
+  <StoreId>012</StoreId>
+  <BikoretNo>5</BikoretNo>
+  <DllVerNo>1</DllVerNo>
+  <Promotions Count="1">
+    <Promotion>
+      <PromotionId>321959</PromotionId>
+      <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+      <PromotionDescription>ביסקוויט 2 ב- 20</PromotionDescription>
+      <PromotionUpdateDate>2026-03-21 16:15</PromotionUpdateDate>
+      <PromotionStartDate>2026-03-16</PromotionStartDate>
+      <PromotionStartHour>00:00</PromotionStartHour>
+      <PromotionEndDate>2026-04-27</PromotionEndDate>
+      <PromotionEndHour>23:59</PromotionEndHour>
+      <IsWeightedPromo>0</IsWeightedPromo>
+      <MinQty>2.000</MinQty>
+      <RewardType>10</RewardType>
+      <DiscountedPrice>20.00</DiscountedPrice>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <PromotionItems Count="2">
+        <Item>
+          <ItemCode>4820154487832</ItemCode>
+          <ItemType>1</ItemType>
+          <IsGiftItem>0</IsGiftItem>
+        </Item>
+        <Item>
+          <ItemCode>4820154487870</ItemCode>
+          <ItemType>1</ItemType>
+          <IsGiftItem>0</IsGiftItem>
+        </Item>
+      </PromotionItems>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <Clubs>
+        <ClubId>0</ClubId>
+      </Clubs>
+    </Promotion>
+  </Promotions>
+</root>

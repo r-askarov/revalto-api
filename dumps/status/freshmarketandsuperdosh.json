@@ -1,0 +1,66 @@
+{
+    "20260204201424": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:24.464327+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:14:30.241564+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:30.242170+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/FreshMarketAndSuperDosh",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201541": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:15:41.337749+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:15:47.266205+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:15:47.267601+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/FreshMarketAndSuperDosh",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ]
+}

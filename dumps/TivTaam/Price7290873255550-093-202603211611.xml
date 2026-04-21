@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <ChainId>7290873255550</ChainId>
+  <SubChainId>000</SubChainId>
+  <StoreId>093</StoreId>
+  <BikoretNo>0</BikoretNo>
+  <DllVerNo>1</DllVerNo>
+  <Items Count="1">
+    <Item>
+      <PriceUpdateDate>2026-03-21 16:00</PriceUpdateDate>
+      <ItemCode>6944804521009</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פותחן פרסטו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry />
+      <ManufacturerItemDescription>פותחן פרסטו         </ManufacturerItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity>1.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>יחידה</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>10.90</ItemPrice>
+      <UnitOfMeasurePrice>10.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</root>

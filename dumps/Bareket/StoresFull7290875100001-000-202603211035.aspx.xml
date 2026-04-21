@@ -1,0 +1,146 @@
+<Root>
+  <ChainId>7290875100001</ChainId>
+  <ChainName>סופר ברקת קמעונאות בע"מ</ChainName>
+  <LastUpdateDate>2026-03-21</LastUpdateDate>
+  <LastUpdateTime>10:35:11</LastUpdateTime>
+  <SubChains>
+    <SubChain>
+      <SubChainId>1</SubChainId>
+      <SubChainName>רשת ברקת</SubChainName>
+      <Stores>
+        <Store>
+          <StoreId>2</StoreId>
+          <BikoretNo>4</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>יהוד</StoreName>
+          <Address>התעשייה 29</Address>
+          <City>יהוד-מונוסון</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>5</StoreId>
+          <BikoretNo>0</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>נס ציונה</StoreName>
+          <Address>החרש 9</Address>
+          <City>נס ציונה</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>6</StoreId>
+          <BikoretNo>7</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>תל אביב</StoreName>
+          <Address>שלבים 26</Address>
+          <City>תל אביב - יפו</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>7</StoreId>
+          <BikoretNo>4</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>ראשון לציון בקר</StoreName>
+          <Address>משה בקר 17</Address>
+          <City>ראשון לציון</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>9</StoreId>
+          <BikoretNo>8</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>גבעת שמואל</StoreName>
+          <Address>הזיתים 96</Address>
+          <City>גבעת שמואל</City>
+          <ZipCode>5401188</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>10</StoreId>
+          <BikoretNo>5</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>קיבוץ גלויות</StoreName>
+          <Address>קיבוץ גלויות 106</Address>
+          <City>תל אביב - יפו</City>
+          <ZipCode>6687758</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>66</StoreId>
+          <BikoretNo>8</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>רמלה</StoreName>
+          <Address>unknown</Address>
+          <City>unknown</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+      </Stores>
+    </SubChain>
+    <SubChain>
+      <SubChainId>2</SubChainId>
+      <SubChainName>ברקת שכונתי</SubChainName>
+      <Stores>
+        <Store>
+          <StoreId>8</StoreId>
+          <BikoretNo>1</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>ראשון לציון גנים</StoreName>
+          <Address>הנגבה 24</Address>
+          <City>ראשון לציון</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>14</StoreId>
+          <BikoretNo>7</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>ת"א סלמה</StoreName>
+          <Address>unknown</Address>
+          <City>unknown</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>60</StoreId>
+          <BikoretNo>2</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>נס ציונה סנונית</StoreName>
+          <Address>סנונית 18</Address>
+          <City>נס ציונה</City>
+          <ZipCode>7411318</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>61</StoreId>
+          <BikoretNo>9</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>רמת השרון</StoreName>
+          <Address>סוקלוב 67</Address>
+          <City>רמת השרון</City>
+          <ZipCode>4723628</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>62</StoreId>
+          <BikoretNo>6</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>חולון</StoreName>
+          <Address>חיים לנדאו 16</Address>
+          <City>חולון</City>
+          <ZipCode>5867025</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>63</StoreId>
+          <BikoretNo>3</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>רחובות</StoreName>
+          <Address>יעקב 3</Address>
+          <City>רחובות</City>
+          <ZipCode>7626203</ZipCode>
+        </Store>
+        <Store>
+          <StoreId>65</StoreId>
+          <BikoretNo>6</BikoretNo>
+          <StoreType>3</StoreType>
+          <StoreName>גבעת שמואל סיטי</StoreName>
+          <Address>בן גורין 11 0</Address>
+          <City>גבעת שמואל</City>
+          <ZipCode>0000000</ZipCode>
+        </Store>
+      </Stores>
+    </SubChain>
+  </SubChains>
+</Root>

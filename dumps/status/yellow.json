@@ -1,0 +1,832 @@
+{
+    "20260204201430": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:30.244141+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:32.632283+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Yellow",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201547": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:15:47.270196+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:16:01.688303+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:16:01.689197+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Yellow",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260228232433": [
+        {
+            "status": "started",
+            "when": "2026-02-28 23:24:33.411823+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-28 23:24:48.857114+02:00",
+            "file_name_collected_from_site": [
+                "Price7290644700005-000-127-20260228-200002.gz",
+                "Price7290644700005-001-100-20260228-200007.gz",
+                "Price7290644700005-1272-202407252000.gz",
+                "Price7290644700005-1380-202407252000.gz",
+                "Price7290644700005-6109-202407250600.gz",
+                "PriceFull7290644700005-000-127-20260228-001007.gz",
+                "PriceFull7290644700005-001-100-20260228-001002.gz",
+                "PriceFull7290644700005-1272-202407250010.gz",
+                "PriceFull7290644700005-1380-202407250010.gz",
+                "PriceFull7290644700005-256-202507222345 (1).gz",
+                "PriceFull7290644700005-6109-202407250010.gz",
+                "Promo7290644700005-001-6109-20260215-130028.gz",
+                "Promo7290644700005-6109-202407250600.gz",
+                "PromoFull7290644700005-000-127-20260228-001038.gz",
+                "PromoFull7290644700005-001-100-20260228-001103.gz",
+                "PromoFull7290644700005-6109-202407250011.gz",
+                "Stores7290644700005-000-20260226-060000.xml"
+            ],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-28 23:24:56.862355+02:00",
+            "results": [
+                {
+                    "file_name": "PriceFull7290644700005-000-127-20260228-001007.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-000-127-20260228-200002.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-6109-202407250600.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-1272-202407252000.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-1272-202407250010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-1380-202407252000.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-001-100-20260228-001002.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-1380-202407250010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-001-100-20260228-200007.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-256-202507222345 (1).gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Promo7290644700005-001-6109-20260215-130028.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Promo7290644700005-6109-202407250600.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-000-127-20260228-001038.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7290644700005-000-20260226-060000.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-6109-202407250011.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-6109-202407250010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-001-100-20260228-001103.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-28 23:24:56.864709+02:00",
+            "folder_size": {
+                "size": 46.55016040802002,
+                "unit": "MB",
+                "folder": "dumps/Yellow",
+                "folder_content": [
+                    "dumps/Yellow/PriceFull7290644700005-256-202507222345 (1).xml",
+                    "dumps/Yellow/Price7290644700005-1272-202407252000.xml",
+                    "dumps/Yellow/PromoFull7290644700005-6109-202407250011.xml",
+                    "dumps/Yellow/Stores7290644700005-000-20260226-060000.xml",
+                    "dumps/Yellow/PriceFull7290644700005-001-100-20260228-001002.xml",
+                    "dumps/Yellow/Price7290644700005-6109-202407250600.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1380-202407250010.xml",
+                    "dumps/Yellow/Promo7290644700005-001-6109-20260215-130028.xml",
+                    "dumps/Yellow/PriceFull7290644700005-000-127-20260228-001007.xml",
+                    "dumps/Yellow/Price7290644700005-000-127-20260228-200002.xml",
+                    "dumps/Yellow/Promo7290644700005-6109-202407250600.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1272-202407250010.xml",
+                    "dumps/Yellow/PromoFull7290644700005-001-100-20260228-001103.xml",
+                    "dumps/Yellow/Price7290644700005-001-100-20260228-200007.xml",
+                    "dumps/Yellow/Price7290644700005-1380-202407252000.xml",
+                    "dumps/Yellow/PromoFull7290644700005-000-127-20260228-001038.xml",
+                    "dumps/Yellow/PriceFull7290644700005-6109-202407250010.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260228233800": [
+        {
+            "status": "started",
+            "when": "2026-02-28 23:38:00.379189+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-28 23:38:16.899107+02:00",
+            "file_name_collected_from_site": [
+                "Price7290644700005-000-127-20260228-210014.gz",
+                "Price7290644700005-001-100-20260228-210019.gz",
+                "Price7290644700005-1272-202407252100.gz",
+                "Price7290644700005-1380-202407252100.gz",
+                "Price7290644700005-6109-202407252000.gz",
+                "PriceFull7290644700005-000-178-20260228-001013.gz",
+                "PriceFull7290644700005-001-107-20260228-001007.gz",
+                "PriceFull7290644700005-1272-202407260010.gz",
+                "PriceFull7290644700005-1380-202407250110.gz",
+                "PriceFull7290644700005-6109-202407260010.gz",
+                "Promo7290644700005-001-6109-20260215-170015.gz",
+                "Promo7290644700005-6109-202407250700.gz",
+                "PromoFull7290644700005-000-178-20260228-001050.gz",
+                "PromoFull7290644700005-001-107-20260228-001132.gz",
+                "PromoFull7290644700005-6109-202407260011.gz",
+                "Stores7290644700005-000-20260227-060000.xml"
+            ],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-28 23:38:29.201244+02:00",
+            "results": [
+                {
+                    "file_name": "Price7290644700005-000-127-20260228-210014.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-000-178-20260228-001013.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-1272-202407260010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-1272-202407252100.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-1380-202407252100.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-001-107-20260228-001007.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-1380-202407250110.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-001-100-20260228-210019.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-6109-202407260010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-6109-202407252000.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Promo7290644700005-6109-202407250700.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Promo7290644700005-001-6109-20260215-170015.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-000-178-20260228-001050.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7290644700005-000-20260227-060000.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-6109-202407260011.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-001-107-20260228-001132.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-28 23:38:29.204565+02:00",
+            "folder_size": {
+                "size": 93.0712776184082,
+                "unit": "MB",
+                "folder": "dumps/Yellow",
+                "folder_content": [
+                    "dumps/Yellow/PriceFull7290644700005-256-202507222345 (1).xml",
+                    "dumps/Yellow/PriceFull7290644700005-000-178-20260228-001013.xml",
+                    "dumps/Yellow/PromoFull7290644700005-6109-202407260011.xml",
+                    "dumps/Yellow/Price7290644700005-1272-202407252000.xml",
+                    "dumps/Yellow/PromoFull7290644700005-000-178-20260228-001050.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1380-202407250110.xml",
+                    "dumps/Yellow/PromoFull7290644700005-6109-202407250011.xml",
+                    "dumps/Yellow/Stores7290644700005-000-20260226-060000.xml",
+                    "dumps/Yellow/PromoFull7290644700005-001-107-20260228-001132.xml",
+                    "dumps/Yellow/PriceFull7290644700005-001-107-20260228-001007.xml",
+                    "dumps/Yellow/PriceFull7290644700005-001-100-20260228-001002.xml",
+                    "dumps/Yellow/Price7290644700005-1272-202407252100.xml",
+                    "dumps/Yellow/Price7290644700005-6109-202407250600.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1380-202407250010.xml",
+                    "dumps/Yellow/Promo7290644700005-001-6109-20260215-130028.xml",
+                    "dumps/Yellow/PriceFull7290644700005-000-127-20260228-001007.xml",
+                    "dumps/Yellow/Price7290644700005-001-100-20260228-210019.xml",
+                    "dumps/Yellow/Price7290644700005-6109-202407252000.xml",
+                    "dumps/Yellow/PriceFull7290644700005-6109-202407260010.xml",
+                    "dumps/Yellow/Price7290644700005-000-127-20260228-200002.xml",
+                    "dumps/Yellow/Promo7290644700005-6109-202407250600.xml",
+                    "dumps/Yellow/Price7290644700005-1380-202407252100.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1272-202407250010.xml",
+                    "dumps/Yellow/PromoFull7290644700005-001-100-20260228-001103.xml",
+                    "dumps/Yellow/Price7290644700005-001-100-20260228-200007.xml",
+                    "dumps/Yellow/Price7290644700005-000-127-20260228-210014.xml",
+                    "dumps/Yellow/Promo7290644700005-001-6109-20260215-170015.xml",
+                    "dumps/Yellow/Price7290644700005-1380-202407252000.xml",
+                    "dumps/Yellow/Promo7290644700005-6109-202407250700.xml",
+                    "dumps/Yellow/PromoFull7290644700005-000-127-20260228-001038.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1272-202407260010.xml",
+                    "dumps/Yellow/PriceFull7290644700005-6109-202407250010.xml",
+                    "dumps/Yellow/Stores7290644700005-000-20260227-060000.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260321200333": [
+        {
+            "status": "started",
+            "when": "2026-03-21 20:03:33.114772+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-21 20:03:50.458937+02:00",
+            "file_name_collected_from_site": [
+                "Price7290644700005-000-127-20260321-200017.gz",
+                "Price7290644700005-001-100-20260321-060008.gz",
+                "Price7290644700005-1272-202407262000.gz",
+                "Price7290644700005-1380-202407262000.gz",
+                "Price7290644700005-6109-202407252100.gz",
+                "PriceFull7290644700005-000-127-20260321-001003.gz",
+                "PriceFull7290644700005-001-100-20260321-001019.gz",
+                "PriceFull7290644700005-1272-202407270010.gz",
+                "PriceFull7290644700005-1380-202407260010.gz",
+                "PriceFull7290644700005-6109-202407270010.gz",
+                "Promo7290644700005-001-218-20260321-080025.gz",
+                "Promo7290644700005-6109-202407250800.gz",
+                "PromoFull7290644700005-000-127-20260321-001033.gz",
+                "PromoFull7290644700005-001-100-20260321-001114.gz",
+                "PromoFull7290644700005-6109-202407270012.gz",
+                "Stores7290644700005-000-20260319-060000.xml"
+            ],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-21 20:03:58.291156+02:00",
+            "results": [
+                {
+                    "file_name": "Price7290644700005-001-100-20260321-060008.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-000-127-20260321-200017.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-000-127-20260321-001003.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-1272-202407270010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-1380-202407262000.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-1272-202407262000.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-001-100-20260321-001019.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-1380-202407260010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Price7290644700005-6109-202407252100.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PriceFull7290644700005-6109-202407270010.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Promo7290644700005-001-218-20260321-080025.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Promo7290644700005-6109-202407250800.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-000-127-20260321-001033.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-6109-202407270012.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7290644700005-000-20260319-060000.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "PromoFull7290644700005-001-100-20260321-001114.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-21 20:03:58.293412+02:00",
+            "folder_size": {
+                "size": 44.52466011047363,
+                "unit": "MB",
+                "folder": "dumps/Yellow",
+                "folder_content": [
+                    "dumps/Yellow/PromoFull7290644700005-001-100-20260321-001114.xml",
+                    "dumps/Yellow/Price7290644700005-6109-202407252100.xml",
+                    "dumps/Yellow/Price7290644700005-000-127-20260321-200017.xml",
+                    "dumps/Yellow/PriceFull7290644700005-001-100-20260321-001019.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1380-202407260010.xml",
+                    "dumps/Yellow/PromoFull7290644700005-6109-202407270012.xml",
+                    "dumps/Yellow/Stores7290644700005-000-20260319-060000.xml",
+                    "dumps/Yellow/Price7290644700005-1272-202407262000.xml",
+                    "dumps/Yellow/Promo7290644700005-6109-202407250800.xml",
+                    "dumps/Yellow/Price7290644700005-1380-202407262000.xml",
+                    "dumps/Yellow/Promo7290644700005-001-218-20260321-080025.xml",
+                    "dumps/Yellow/PromoFull7290644700005-000-127-20260321-001033.xml",
+                    "dumps/Yellow/PriceFull7290644700005-6109-202407270010.xml",
+                    "dumps/Yellow/Price7290644700005-001-100-20260321-060008.xml",
+                    "dumps/Yellow/PriceFull7290644700005-000-127-20260321-001003.xml",
+                    "dumps/Yellow/PriceFull7290644700005-1272-202407270010.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "PriceFull7290644700005-000-127-20260228-001007.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-000-127-20260228-200002.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-6109-202407250600.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-1272-202407252000.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-1272-202407250010.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-1380-202407252000.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-001-100-20260228-001002.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-1380-202407250010.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-001-100-20260228-200007.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-256-202507222345 (1).gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Promo7290644700005-001-6109-20260215-130028.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Promo7290644700005-6109-202407250600.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-000-127-20260228-001038.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Stores7290644700005-000-20260226-060000.xml",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-6109-202407250011.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-6109-202407250010.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-001-100-20260228-001103.gz",
+            "when": "2026-02-28 23:24:56.862929+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-000-127-20260228-210014.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-000-178-20260228-001013.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-1272-202407260010.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-1272-202407252100.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-1380-202407252100.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-001-107-20260228-001007.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-1380-202407250110.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-001-100-20260228-210019.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-6109-202407260010.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-6109-202407252000.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Promo7290644700005-6109-202407250700.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Promo7290644700005-001-6109-20260215-170015.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-000-178-20260228-001050.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Stores7290644700005-000-20260227-060000.xml",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-6109-202407260011.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-001-107-20260228-001132.gz",
+            "when": "2026-02-28 23:38:29.202239+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-001-100-20260321-060008.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-000-127-20260321-200017.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-000-127-20260321-001003.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-1272-202407270010.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-1380-202407262000.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-1272-202407262000.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-001-100-20260321-001019.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-1380-202407260010.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Price7290644700005-6109-202407252100.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PriceFull7290644700005-6109-202407270010.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Promo7290644700005-001-218-20260321-080025.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Promo7290644700005-6109-202407250800.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-000-127-20260321-001033.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-6109-202407270012.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "Stores7290644700005-000-20260319-060000.xml",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        },
+        {
+            "file_name": "PromoFull7290644700005-001-100-20260321-001114.gz",
+            "when": "2026-03-21 20:03:58.292014+02:00"
+        }
+    ]
+}

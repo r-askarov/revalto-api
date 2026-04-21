@@ -1,0 +1,26 @@
+<Root>
+  <ChainId>7290875100001</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>66</StoreId>
+  <BikoretNo>8</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateDate>2026-03-20 08:41:00</PriceUpdateDate>
+      <ItemCode>396</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אוכמניות</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אוכמניות</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>0000000000</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0.0000</QtyInPackage>
+      <ItemPrice>24.9</ItemPrice>
+      <UnitOfMeasurePrice>24.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

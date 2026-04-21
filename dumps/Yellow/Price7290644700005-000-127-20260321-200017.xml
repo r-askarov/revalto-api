@@ -1,0 +1,122 @@
+﻿<Root>
+  <ChainID>7290644700005</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>127</StoreID>
+  <BikoretNo>0</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2025-09-15T09:03:00.000</PriceUpdateTime>
+      <ItemCode>8000380213511</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>לואקר חלב מאגדת264ג</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>לואקר גלידת שמנת חלבית עם עוגיות</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>55.60</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-09-15T09:03:00.000</PriceUpdateTime>
+      <ItemCode>8000380213498</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>לואקר אגוז מאגדת264ג</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>לואקר מעדן קפוא בטעם אגוזי לוז וקקאו וריפל אגוזי ל</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>55.60</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-01-14T00:03:00.000</PriceUpdateTime>
+      <ItemCode>7290115182224</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>טריאה סאן פרל</ItemName>
+      <ManufactureName>פיליפ מוריס אינטרנשו</ManufactureName>
+      <ManufactureCountry>CH</ManufactureCountry>
+      <ManufactureItemDescription>TEREA סאן פרל</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>375.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-01-15T00:03:00.000</PriceUpdateTime>
+      <ItemCode>9999921051278</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>פלאפל דוגו</ItemName>
+      <ManufactureName>פלאפל בריבוע</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>פלאפל דוגו</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>28.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-03-18T00:03:01.000</PriceUpdateTime>
+      <ItemCode>9999921051583</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>וולט שניצל פיתה איו</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry/>
+      <ManufactureItemDescription>וולט שניצל פיתה איו</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-03-18T00:03:01.000</PriceUpdateTime>
+      <ItemCode>9999921051584</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>וולט שניצל פיתה עמ</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry/>
+      <ManufactureItemDescription>וולט שניצל פיתה עמ</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+  </Items>
+</Root>

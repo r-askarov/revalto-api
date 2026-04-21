@@ -1,0 +1,84 @@
+﻿<Root>
+  <ChainID>7290644700005</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>127</StoreID>
+  <BikoretNo>0</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-03-13T00:03:00.000</PriceUpdateTime>
+      <ItemCode>9999921051535</ItemCode>
+      <LastSaleDateTime>2026-03-19T12:39:41.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>שניצל בפיתה-מטבוחה</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry>Unknown</ManufactureCountry>
+      <ManufactureItemDescription>שניצל בפיתה-מטבוחה</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>49.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-03-13T00:03:00.000</PriceUpdateTime>
+      <ItemCode>9999921051536</ItemCode>
+      <LastSaleDateTime>2026-03-19T16:22:58.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>שניצל בפיתה איולאריס</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry>Unknown</ManufactureCountry>
+      <ManufactureItemDescription>שניצל בפיתה איולאריס</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>49.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-03-13T00:03:00.000</PriceUpdateTime>
+      <ItemCode>9999921051537</ItemCode>
+      <LastSaleDateTime>2026-03-19T17:00:51.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>שניצל בפיתה עמבטחינה</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry>Unknown</ManufactureCountry>
+      <ManufactureItemDescription>שניצל בפיתה עמבטחינה</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>49.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-03-18T00:03:01.000</PriceUpdateTime>
+      <ItemCode>9999921051582</ItemCode>
+      <LastSaleDateTime>2026-03-19T14:45:33.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>וולט שניצל פיתה מטבו</ItemName>
+      <ManufactureName>Unknown</ManufactureName>
+      <ManufactureCountry>Unknown</ManufactureCountry>
+      <ManufactureItemDescription>וולט שניצל פיתה מטבו</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+  </Items>
+</Root>

@@ -1,0 +1,501 @@
+{
+    "20260204201405": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:05.300844+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:14:12.750658+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:12.752499+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201446": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:46.939443+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:48.317853+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201523": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:15:23.797452+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:15:29.504240+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:15:29.507109+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202108": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:21:08.614456+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:21:14.581648+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:21:14.584540+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202148": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:21:48.635428+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:21:54.325500+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:21:54.327264+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202240": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:22:40.587406+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:22:46.464247+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 52, in _scrape\n    files = self.collect_files_details_from_site(\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/cerberus.py\", line 149, in collect_files_details_from_site\n    files = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "files": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:22:46.469167+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202325": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:23:25.457006+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-04 20:23:31.554740+02:00",
+            "file_name_collected_from_site": [
+                "Stores7291056200008-202602020510.xml",
+                "Stores7291056200008-202602030510.xml",
+                "Stores7291056200008-202602040510.xml"
+            ],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-04 20:23:34.758767+02:00",
+            "results": [
+                {
+                    "file_name": "Stores7291056200008-202602030510.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7291056200008-202602040510.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7291056200008-202602020510.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:23:34.766998+02:00",
+            "folder_size": {
+                "size": 0.04167366027832031,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": [
+                    "dumps/Cofix/Stores7291056200008-202602030510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602020510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602040510.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202556": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:25:56.276527+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-04 20:26:02.094433+02:00",
+            "file_name_collected_from_site": [],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-04 20:26:02.099324+02:00",
+            "results": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:26:02.104781+02:00",
+            "folder_size": {
+                "size": 0.04167366027832031,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": [
+                    "dumps/Cofix/Stores7291056200008-202602030510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602020510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602040510.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202741": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:27:41.085031+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-04 20:27:46.890100+02:00",
+            "file_name_collected_from_site": [],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-04 20:27:46.894677+02:00",
+            "results": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:27:46.900822+02:00",
+            "folder_size": {
+                "size": 0.04167366027832031,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": [
+                    "dumps/Cofix/Stores7291056200008-202602030510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602020510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602040510.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204202912": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:29:12.946989+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-04 20:29:18.848831+02:00",
+            "file_name_collected_from_site": [],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-04 20:29:18.853055+02:00",
+            "results": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:29:18.859028+02:00",
+            "folder_size": {
+                "size": 0.04167366027832031,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": [
+                    "dumps/Cofix/Stores7291056200008-202602030510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602020510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602040510.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260213215717": [
+        {
+            "status": "started",
+            "when": "2026-02-13 21:57:17.115363+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-13 21:57:24.966715+02:00",
+            "file_name_collected_from_site": [
+                "Stores7291056200008-202602110510.xml",
+                "Stores7291056200008-202602120510.xml",
+                "Stores7291056200008-202602130510.xml"
+            ],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-13 21:57:28.490284+02:00",
+            "results": [
+                {
+                    "file_name": "Stores7291056200008-202602130510.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7291056200008-202602110510.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "Stores7291056200008-202602120510.xml",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-13 21:57:28.496434+02:00",
+            "folder_size": {
+                "size": 0.04167366027832031,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": [
+                    "dumps/Cofix/Stores7291056200008-202602130510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602120510.xml",
+                    "dumps/Cofix/Stores7291056200008-202602110510.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260213220401": [
+        {
+            "status": "started",
+            "when": "2026-02-13 22:04:01.164062+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-02-13 22:04:07.093969+02:00",
+            "file_name_collected_from_site": [],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-02-13 22:04:07.098377+02:00",
+            "results": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-13 22:04:07.103741+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/Cofix",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Stores7291056200008-202602030510.xml",
+            "when": "2026-02-04 20:23:34.760645+02:00"
+        },
+        {
+            "file_name": "Stores7291056200008-202602040510.xml",
+            "when": "2026-02-04 20:23:34.760645+02:00"
+        },
+        {
+            "file_name": "Stores7291056200008-202602020510.xml",
+            "when": "2026-02-04 20:23:34.760645+02:00"
+        },
+        {
+            "file_name": "Stores7291056200008-202602130510.xml",
+            "when": "2026-02-13 21:57:28.493286+02:00"
+        },
+        {
+            "file_name": "Stores7291056200008-202602110510.xml",
+            "when": "2026-02-13 21:57:28.493286+02:00"
+        },
+        {
+            "file_name": "Stores7291056200008-202602120510.xml",
+            "when": "2026-02-13 21:57:28.493286+02:00"
+        }
+    ]
+}

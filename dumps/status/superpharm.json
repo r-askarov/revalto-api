@@ -1,0 +1,49 @@
+{
+    "20260204203047": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:30:47.011772+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:31:04.925862+02:00",
+            "execption": "Response for http://prices.super-pharm.co.il/?type=&date=&store=, returned with status 247",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 151, in _scrape\n    download_urls, file_names = self.collect_files_details_from_site(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/multipage_web.py\", line 99, in collect_files_details_from_site\n    main_page_response = self.session_with_cookies_by_chain(**main_page_request)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 204, in session_with_cookies_by_chain\n    return session_with_cookies(\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/venv/lib/python3.11/site-packages/decorator.py\", line 235, in fun\n    return caller(func, *(extras + args), **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/utils/retry.py\", line 137, in retry_decorator\n    return __retry_internal(\n           ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/utils/retry.py\", line 70, in __retry_internal\n    return func(timeout=_timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/utils/connection.py\", line 88, in inner\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/utils/connection.py\", line 206, in session_with_cookies\n    raise ConnectionError(\nConnectionError: Response for http://prices.super-pharm.co.il/?type=&date=&store=, returned with status 247\n",
+            "download_urls": [],
+            "file_names": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:31:04.929369+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/SuperPharm",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204203147": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:31:47.774559+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": "latest",
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        }
+    ]
+}

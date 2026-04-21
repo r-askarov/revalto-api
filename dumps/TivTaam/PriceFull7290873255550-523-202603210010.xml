@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <ChainId>7290873255550</ChainId>
+  <SubChainId>000</SubChainId>
+  <StoreId>523</StoreId>
+  <BikoretNo>6</BikoretNo>
+  <DllVerNo>1</DllVerNo>
+  <Items Count="5">
+    <Item>
+      <PriceUpdateDate>2019-11-21 18:46</PriceUpdateDate>
+      <ItemCode>9966</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>משלוח אינטרנט</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>משלוח אינטרנט       </ManufacturerItemDescription>
+      <UnitQty>Unknown</UnitQty>
+      <Quantity>0.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>29.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2019-11-05 05:34</PriceUpdateDate>
+      <ItemCode>9988</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>איסוף עצמי</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>איסוף עצמי          </ManufacturerItemDescription>
+      <UnitQty>Unknown</UnitQty>
+      <Quantity>0.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>15.00</ItemPrice>
+      <UnitOfMeasurePrice>15.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2019-11-29 05:33</PriceUpdateDate>
+      <ItemCode>9990015</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>שובר אתר 15 שח</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שובר אתר 15 שח      </ManufacturerItemDescription>
+      <UnitQty>Unknown</UnitQty>
+      <Quantity>0.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>0.10</ItemPrice>
+      <UnitOfMeasurePrice>0.10</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2019-11-29 05:33</PriceUpdateDate>
+      <ItemCode>9990020</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>שובר אתר 20 שח</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שובר אתר 20 שח      </ManufacturerItemDescription>
+      <UnitQty>Unknown</UnitQty>
+      <Quantity>0.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>0.10</ItemPrice>
+      <UnitOfMeasurePrice>0.10</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2023-06-13 10:19</PriceUpdateDate>
+      <ItemCode>9999212</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>משלוח באתר</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>משלוח מיוחד באתר    </ManufacturerItemDescription>
+      <UnitQty>Unknown</UnitQty>
+      <Quantity>0.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>Unknown</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>29.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</root>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <ChainId>7290873255550</ChainId>
+  <SubChainId>000</SubChainId>
+  <StoreId>052</StoreId>
+  <BikoretNo>3</BikoretNo>
+  <DllVerNo>1</DllVerNo>
+  <Items Count="1">
+    <Item>
+      <PriceUpdateDate>2026-03-21 08:00</PriceUpdateDate>
+      <ItemCode>7290008438434</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>גבינת בלאק ברי במשקל</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>גבינת בלאק ברי במשקל</ManufacturerItemDescription>
+      <UnitQty>Unknown</UnitQty>
+      <Quantity>0.00</Quantity>
+      <bIsWeighted>1</bIsWeighted>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>157.00</ItemPrice>
+      <UnitOfMeasurePrice>157.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>0</ItemStatus>
+    </Item>
+  </Items>
+</root>

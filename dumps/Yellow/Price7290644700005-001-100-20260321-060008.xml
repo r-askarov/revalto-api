@@ -1,0 +1,141 @@
+﻿<Root>
+  <ChainID>7290644700005</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>100</StoreID>
+  <BikoretNo>4</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121808545</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מנגן ספיידרמן</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון מנגן - ספיידרמן</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121808590</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מנגן - סטיץ</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון מנגן - סטיץ</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121808842</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מנגן הלו קיטי</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון מנגן - הלו קיטי</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121808897</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מנגן - ברבי</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון מנגן - ברבי</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121808996</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מצייר - סטיץ</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון מצייר - סטיץ'</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>7.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121809344</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מנגן -חד קרן</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון  מנגן בעברית - חד קרן ורוד מדליק אורות</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-10-24T00:03:13.000</PriceUpdateTime>
+      <ItemCode>7290121809849</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סביבון מנגן -כדורגל</ItemName>
+      <ManufactureName>BONY (YIWU-SUDI)</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סביבון  מנגן בעברית- כדורגל מדליק אורות</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity/>
+      <UnitOfMeasure/>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice/>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+  </Items>
+</Root>

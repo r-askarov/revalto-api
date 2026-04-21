@@ -1,0 +1,68 @@
+{
+    "20260204201412": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:14:12.757091+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:14:15.699908+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 151, in _scrape\n    download_urls, file_names = self.collect_files_details_from_site(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 122, in collect_files_details_from_site\n    file_names, download_urls = self.apply_limit_zip(\n                                ^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 52, in apply_limit_zip\n    ziped = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "download_urls": [],
+            "file_names": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:14:15.700322+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/MeshnatYosef2",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260204201529": [
+        {
+            "status": "started",
+            "when": "2026-02-04 20:15:29.512234+02:00",
+            "limit": null,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": false,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-02-04 20:15:32.136924+02:00",
+            "execption": "when_date should be datetime or 'latest', got False",
+            "traceback": "Traceback (most recent call last):\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 151, in _scrape\n    download_urls, file_names = self.collect_files_details_from_site(\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 122, in collect_files_details_from_site\n    file_names, download_urls = self.apply_limit_zip(\n                                ^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/web.py\", line 52, in apply_limit_zip\n    ziped = self.apply_limit(\n            ^^^^^^^^^^^^^^^^^\n  File \"/Users/royaskarov/workspace/python_course/open-israeli-supermarket-scrapers/il_supermarket_scarper/engines/engine.py\", line 118, in apply_limit\n    raise ValueError(\nValueError: when_date should be datetime or 'latest', got False\n",
+            "download_urls": [],
+            "file_names": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-02-04 20:15:32.138070+02:00",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "dumps/MeshnatYosef2",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ]
+}

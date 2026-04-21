@@ -1,0 +1,27 @@
+﻿<Root>
+  <ChainID>7290873255550</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>002</StoreID>
+  <BikoretNo>7</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-03-21T08:00:00</PriceUpdateTime>
+      <ItemCode>7290010002115</ItemCode>
+      <LastSaleDateTime>2026-03-20T18:41:33</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פלפל אנגלי שלם 90 גרם</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>פלפל אנגלי שלם 90 גר</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+  </Items>
+</Root>
