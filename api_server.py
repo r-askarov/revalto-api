@@ -97,7 +97,7 @@ def normalize_item(item: dict, chain_name: str) -> dict:
 def extract_products(chain_name: str):
     chain_folder = DUMPS_ROOT / chain_name
 
-    price_files = list(chain_folder.glob("*Price*Full*.xml"))
+    price_files = list(chain_folder.rglob("*.xml"))
 
     if not price_files:
         return []
