@@ -15,6 +15,16 @@ CACHE = {}
 
 import os
 
+def resolve_chain_folder(chain_input: str) -> str:
+    """
+    Match user input (any case) to actual folder name.
+    """
+    for folder in DUMPS_ROOT.iterdir():
+        if folder.is_dir() and folder.name.lower() == chain_input.lower():
+            return folder.name
+
+    raise ValueError(f"Chain '{chain_input}' not found in dumps")
+
 @app.get("/debug")
 def debug_files(chain: str = "BAREKET"):
     chain_folder = DUMPS_ROOT / chain
@@ -134,15 +144,14 @@ def get_cached_products(chain):
 # ---------------------------
 @app.get("/products")
 def get_products(chain: str):
-    chain = chain.upper()
-    products = get_cached_products(chain)
+    real_chain = resolve_chain_folder(chain)
+    products = get_cached_products(real_chain)
 
     return {
-        "chain": chain,
+        "chain": real_chain,
         "count": len(products),
-        "products": products[:500]  # dev limit
+        "products": products[:500]
     }
-
 
 # ---------------------------
 # BARCODE LOOKUP (🔥 YOUR MAIN USE CASE)
@@ -151,28 +160,47 @@ def get_products(chain: str):
 def get_product(barcode: str):
     result = {
         "barcode": barcode,
+        "name": None,
+        "manufacturer": None,
         "offers": {}
     }
 
-    for chain in CHAINS:
-        products = get_cached_products(chain)
+    # Iterate dynamically over all chain folders
+    for folder in DUMPS_ROOT.iterdir():
+        if not folder.is_dir():
+            continue
+
+        chain_name = folder.name  # e.g. "Bareket", "TivTaam"
+
+        products = get_cached_products(chain_name)
 
         for p in products:
-            if p["barcode"] == barcode:
+            if p["barcode"] != barcode:
+                continue
+
+            # Set product info once
+            if not result["name"]:
                 result["name"] = p["name"]
                 result["manufacturer"] = p["manufacturer"]
 
-                current = result["offers"].get(chain)
+            current = result["offers"].get(chain_name)
 
-                # Keep the lowest price per chain
-                if current is None or p["price"] < current["price"]:
-                    result["offers"][chain] = {
-                        "chain": chain,
-                        "price": p["price"]
-                    }
+            # Keep lowest price per chain
+            if current is None or p["price"] < current["price"]:
+                result["offers"][chain_name] = {
+                    "chain": chain_name,
+                    "price": p["price"]
+                }
 
-    # convert dict → list
+    # Convert offers dict → list
     result["offers"] = list(result["offers"].values())
+
+    # Optional: handle not found
+    if not result["offers"]:
+        return {
+            "error": "Product not found",
+            "barcode": barcode
+        }
 
     return result
 
