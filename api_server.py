@@ -16,10 +16,13 @@ CACHE = {}
 import os
 
 @app.get("/debug")
-def debug():
+def debug_files(chain: str = "BAREKET"):
+    chain_folder = DUMPS_ROOT / chain
+
     return {
-        "cwd": os.getcwd(),
-        "files": os.listdir("dumps") if os.path.exists("dumps") else "NO DUMPS"
+        "folder": str(chain_folder),
+        "exists": chain_folder.exists(),
+        "files": [str(f.name) for f in chain_folder.glob("*.xml")]
     }
 
 # ---------------------------
