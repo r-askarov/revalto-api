@@ -7,8 +7,6 @@ app = FastAPI()
 
 DUMPS_ROOT = Path("dumps")
 
-BARCODE_INDEX = {}
-
 # Chains you want to support
 CHAINS = ["BAREKET", "TIV_TAAM", "YELLOW"]
 
@@ -16,29 +14,6 @@ CHAINS = ["BAREKET", "TIV_TAAM", "YELLOW"]
 CACHE = {}
 
 import os
-
-@app.on_event("startup")
-def build_index():
-    print("🔄 Building barcode index...")
-
-    for folder in DUMPS_ROOT.iterdir():
-        if not folder.is_dir():
-            continue
-
-        chain_name = folder.name
-        products = extract_products(chain_name)
-
-        for p in products:
-            barcode = p["barcode"]
-            if not barcode:
-                continue
-
-            if barcode not in BARCODE_INDEX:
-                BARCODE_INDEX[barcode] = []
-
-            BARCODE_INDEX[barcode].append(p)
-
-    print(f"✅ Indexed {len(BARCODE_INDEX)} unique barcodes")
 
 def resolve_chain_folder(chain_input: str) -> str:
     """
@@ -183,35 +158,50 @@ def get_products(chain: str):
 # ---------------------------
 @app.get("/product/{barcode}")
 def get_product(barcode: str):
-    products = BARCODE_INDEX.get(barcode)
+    result = {
+        "barcode": barcode,
+        "name": None,
+        "manufacturer": None,
+        "offers": {}
+    }
 
-    if not products:
+    for folder in DUMPS_ROOT.iterdir():
+        if not folder.is_dir():
+            continue
+
+        chain_name = folder.name
+
+        try:
+            products = extract_products(chain_name)
+        except Exception as e:
+            print(f"Error loading {chain_name}: {e}")
+            continue
+
+        for p in products:
+            if p["barcode"] != barcode:
+                continue
+
+            if not result["name"]:
+                result["name"] = p["name"]
+                result["manufacturer"] = p["manufacturer"]
+
+            current = result["offers"].get(chain_name)
+
+            if current is None or p["price"] < current["price"]:
+                result["offers"][chain_name] = {
+                    "chain": chain_name,
+                    "price": p["price"]
+                }
+
+    result["offers"] = list(result["offers"].values())
+
+    if not result["offers"]:
         return {
             "error": "Product not found",
             "barcode": barcode
         }
 
-    result = {
-        "barcode": barcode,
-        "name": products[0]["name"],
-        "manufacturer": products[0]["manufacturer"],
-        "offers": {}
-    }
-
-    for p in products:
-        chain = p["chain"]
-        current = result["offers"].get(chain)
-
-        if current is None or p["price"] < current["price"]:
-            result["offers"][chain] = {
-                "chain": chain,
-                "price": p["price"]
-            }
-
-    result["offers"] = list(result["offers"].values())
-
     return result
-
 # ---------------------------
 # START SERVER
 # ---------------------------
