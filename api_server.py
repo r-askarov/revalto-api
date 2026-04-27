@@ -1,7 +1,10 @@
-import json
 from pathlib import Path
 import xmltodict
 from fastapi import FastAPI
+import json
+
+with open("products_index.json", encoding="utf-8") as f:
+    INDEX = json.load(f)
 
 app = FastAPI()
 
@@ -13,7 +16,6 @@ CHAINS = ["BAREKET", "TIV_TAAM", "YELLOW"]
 # In-memory cache
 CACHE = {}
 
-import os
 
 def resolve_chain_folder(chain_input: str) -> str:
     """
@@ -154,54 +156,29 @@ def get_products(chain: str):
     }
 
 # ---------------------------
-# BARCODE LOOKUP (🔥 YOUR MAIN USE CASE)
+# BARCODE LOOKUP (🔥 YOUR MAIN USE CASE) 7290015652254
 # ---------------------------
 @app.get("/product/{barcode}")
 def get_product(barcode: str):
-    result = {
+    products = INDEX.get(barcode)
+
+    if not products:
+        return {"error": "Not found", "barcode": barcode}
+
+    best = {}
+
+    for p in products:
+        chain = p["chain"]
+        if chain not in best or p["price"] < best[chain]["price"]:
+            best[chain] = p
+
+    return {
         "barcode": barcode,
-        "name": None,
-        "manufacturer": None,
-        "offers": {}
+        "name": products[0]["name"],
+        "manufacturer": products[0]["manufacturer"],
+        "offers": list(best.values())
     }
 
-    for folder in DUMPS_ROOT.iterdir():
-        if not folder.is_dir():
-            continue
-
-        chain_name = folder.name
-
-        try:
-            products = extract_products(chain_name)
-        except Exception as e:
-            print(f"Error loading {chain_name}: {e}")
-            continue
-
-        for p in products:
-            if p["barcode"] != barcode:
-                continue
-
-            if not result["name"]:
-                result["name"] = p["name"]
-                result["manufacturer"] = p["manufacturer"]
-
-            current = result["offers"].get(chain_name)
-
-            if current is None or p["price"] < current["price"]:
-                result["offers"][chain_name] = {
-                    "chain": chain_name,
-                    "price": p["price"]
-                }
-
-    result["offers"] = list(result["offers"].values())
-
-    if not result["offers"]:
-        return {
-            "error": "Product not found",
-            "barcode": barcode
-        }
-
-    return result
 # ---------------------------
 # START SERVER
 # ---------------------------
